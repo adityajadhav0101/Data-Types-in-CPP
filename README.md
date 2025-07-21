@@ -42,4 +42,4 @@ Represents a sequence of characters.<br>
 
 **🧠 Conclusion**
 
-Understanding data types is fundamental to writing reliable and efficient programs. Each type whether integer, float, character, or string serves a distinct role in representing and manipulating information. By mastering these building blocks, you unlock the foundation of structured logic and expressive coding in C++. 🧱💻
+Understanding data types is fundamental to writing reliable and efficient programs. Each type whether integer, float, character, or string serves a distinct role in representing and manipulating information. By mastering these building blocks, you unlock the foundation of structured logic and expressive coding in C++.🧱💻
