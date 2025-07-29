@@ -1,45 +1,38 @@
-**💻 Data Types**
+# 💻 Data Types in C++
 
-**🎯 Aim**
+## 🎯 Aim
 
-To learn about various data types in programming, particularly in C++.
+To understand and explore various **primitive data types** in programming, with a focus on their usage in **C++**.
 
-**📚 Theory**
+---
 
-Primitive data types are the most basic data types provided by a programming language. They are typically built-in and used to store simple values.
+## 📚 Theory
 
-🔹 **1. Integer (int)**
+Primitive data types are the fundamental building blocks of any programming language. In C++, they are used to store and manipulate basic forms of data such as numbers, characters, and logical values.
 
-Represents whole numbers without a fractional part.<br>
-**Example:** _int marks = 25_;
+---
 
-🔹 **2. Float (float)**
+## 🔢 Common Data Types in C++
 
-Represents single-precision floating-point numbers.<br>
-**Example:** _float x = 3.2f;_
+| Data Type | Description                                      | Example                         |
+|-----------|--------------------------------------------------|----------------------------------|
+| `int`     | Stores whole numbers without decimals            | `int marks = 25;`               |
+| `float`   | Stores single-precision decimal numbers          | `float x = 3.2f;`               |
+| `double`  | Stores double-precision decimal numbers          | `double a = 9.97585858;`        |
+| `char`    | Stores a single character                        | `char initial = 'A';`           |
+| `bool`    | Stores logical values: `true` or `false`         | `bool isStudent = true;`        |
+| `string`  | Stores a sequence of characters (text)           | `string name = "Aditya";`       |
 
-🔹 **3. Double (double)**
+> 🛠️ **Note**: In C++, `string` is part of the Standard Library and requires:
+> ```cpp
+> #include <string>
+> using std::string;
+> ```
 
-Represents double-precision floating-point numbers.<br>
-**Example:** _double a = 9.97585858;_
+---
 
-🔹 **4. Character (char)**
+## 🧠 Conclusion
 
-Represents a single character.<br>
-**Example:** _char initial = 'A';_
+Mastering data types is essential for writing **reliable**, **efficient**, and **expressive** programs. Each type—whether it's an integer for counting, a float for precision, or a string for text—serves a unique purpose in representing and manipulating information.
 
-🔹 **5. Boolean (bool)**
-
-Represents logical values: true or false.<br>
-**Example:** _bool isStudent = true;_
-
-🔹 **6. String (string)**
-
-Represents a sequence of characters.<br>
-**Example:** _string name = "Aditya";_
-
-🛠️ In C++, string is part of the Standard Library and requires _#include &lt;string&gt;_ and usage of _std::string_.
-
-**🧠 Conclusion**
-
-Understanding data types is fundamental to writing reliable and efficient programs. Each type whether integer, float, character, or string serves a distinct role in representing and manipulating information. By mastering these building blocks, you unlock the foundation of structured logic and expressive coding in C++.🧱💻
+By understanding how and when to use these types, you lay the groundwork for structured logic, memory management, and robust application development in C++. 🧱💻
